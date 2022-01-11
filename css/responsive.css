@@ -13,7 +13,7 @@
     }
     .box-main{
         flex-direction: column-reverse;
-        max-width: 100;
+        max-width: 100%;
     }
     #search{
         width: 100%;
