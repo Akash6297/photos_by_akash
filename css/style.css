@@ -56,6 +56,20 @@ html{
     color: gray;
 }
 
+.nav-list li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-list li a:hover::after{
+    width: 100%;
+}
+
 .rightNav{
     width: 30%;
     text-align: right;
