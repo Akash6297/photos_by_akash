@@ -9,7 +9,7 @@ form.onsubmit = (e) => {
   form.classList.add("disabled");
 
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "php/contact.php", true);
+  xhr.open("POST", "contact.php", true);
   xhr.onload = () => {
     if (xhr.readyState == 4 && xhr.status == 200) {
       let response = xhr.response;
