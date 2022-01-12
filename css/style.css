@@ -224,7 +224,34 @@ html{
     font-family:  'Ubuntu Condensed', sans-serif;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(243, 64, 64);
+}
+
+.copyright-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family:  'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.icons{
+    text-align: center;
+    padding: 0;
+    font-family:  'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 64, 64);
+}
+
+.footer h4{
+    text-align: center;
+    padding: 10px;
+    font-family:  'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 64, 64);
 }
 
 .burger{
