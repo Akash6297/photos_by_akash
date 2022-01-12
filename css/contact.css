@@ -6,20 +6,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+.contact-from{
   display: flex;
   padding: 0 10px;
   min-height: 100vh;
-  background: #0D6EFD;
+ 
   align-items: center;
   justify-content: center;
 }
+
 ::selection{
   color: #fff;
   background: #0D6EFD;
 }
 .wrapper{
-  width: 715px;
+  width: auto;
   background: #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
@@ -27,7 +28,6 @@ body{
 .wrapper header{
   font-size: 22px;
   font-weight: 600;
-  padding: 20px 30px;
   border-bottom: 1px solid #ccc;
 }
 .wrapper form{
@@ -123,6 +123,10 @@ form .button-area{
   font-size: 17px;
   margin-left: 30px;
   display: none;
+}
+.contact h2{
+  padding-top: 10px;
+  text-align: center;
 }
 @media (max-width: 600px){
   .wrapper header{
