@@ -15,9 +15,7 @@
         flex-direction: column-reverse;
         max-width: 100%;
     }
-    #search{
-        width: 100%;
-    }
+    
     .burger{
         display: block;
     }
