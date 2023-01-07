@@ -300,7 +300,7 @@ html{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -70px;
+    bottom: -10px;
 }
 
 @keyframes bubble{
