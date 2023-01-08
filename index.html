@@ -18,6 +18,7 @@
             <div class="logo"><img src="img.jpg" alt="logo"></div>
             <li><a href="index.html">Home</a> </li>
             <li><a href="photos.html">Photos</a> </li>
+            <li><a href="contact.html">Contact Us</a> </li>
 
         </ul>
     
@@ -46,11 +47,18 @@
         <h4>Contact Us</h4>
         <h2 class="text-center">YOU CAN CONTACT US <br> HERE</h2>
         <form action="https://formsubmit.co/pappumandal6297@email.com" method="POST" >
-            <input class="form-input" type="text" name="Name" id="Name" placeholder="Enter your Name">
-            <input class="form-input" type="text" name="Phone" id="Phone" placeholder="Enter your Phone Number">
-            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email i'd">
-            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
-            <button class="btn btn-sm btn-dark">Submmit</button>
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <select name="Continent">
+                <option>Africa</option>
+                <option>Antarctica</option>
+                <option>Asia</option>
+                <option>Eruope</option>
+                <option>North America</option>
+                <option>South America</option>
+            </select>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </section>
     
