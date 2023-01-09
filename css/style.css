@@ -191,32 +191,6 @@ html{
     margin-top: 19px;
 }
 
-.contact{
-    background-color: #f6f5f4;
-    height: 100vh;
-}
-
-.text-center{
-    text-align: center;
-    padding-top: 20px ;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 35px;
-}
-
-.form{
-    max-width: 62%;
-    margin: 25px auto;
-}
-
-.form-input{
-    margin: 14px 0;
-    padding: 5px 13px;
-    width: 100%;
-    font-size: 19px;
-    border: 2px solid gray;
-    border-radius: 6px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .text-footer{
     text-align: center;
@@ -254,20 +228,7 @@ html{
     color: rgb(243, 64, 64);
 }
 
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-}
 
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 3px 3px;
-}
 
 .hero-btn{
     display: inline-block;
@@ -303,24 +264,7 @@ html{
     bottom: -10px;
 }
 
-@keyframes bubble{
-    0%{
-        transform: translateY(0);
-        opacity: 0;
-    }
-    50%{
-        
-        opacity: 1;
-    }
-    70%{
-        
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-80vh);
-        opacity: 0;
-    }
-}
+
 .bubbles img:nth-child(1){
     animation-delay: 2s;
     width: 25px;
