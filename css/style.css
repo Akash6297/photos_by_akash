@@ -276,7 +276,7 @@ button{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -10px;
+    bottom: 200px;
 }
 
 .side-bar{
