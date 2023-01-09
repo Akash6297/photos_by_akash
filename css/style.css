@@ -264,7 +264,38 @@ html{
     bottom: -10px;
 }
 
-
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu{
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.social-links img, .useful-links img{
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.social-links {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.useful-links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
 .bubbles img:nth-child(1){
     animation-delay: 2s;
     width: 25px;
