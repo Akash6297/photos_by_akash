@@ -31,6 +31,7 @@ html{
     position: sticky;
     top: 0;
     cursor: pointer;
+    background: blue;
 }
 
 .nav-list{
