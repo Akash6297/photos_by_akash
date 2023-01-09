@@ -298,27 +298,27 @@ html{
 }
 .bubbles img:nth-child(1){
     animation-delay: 2s;
-    width: 100px;
+    width: 60px;
 }
 .bubbles img:nth-child(2){
     animation-delay: 1s;
-    width: 100px;
+    width: 70px;
 }
 .bubbles img:nth-child(3){
     animation-delay: 3s;
-    width: 90px;
+    width: 60px;
 }
 .bubbles img:nth-child(4){
     animation-delay: 4.5s;
-    width: 100px;
+    width: 70px;
 }
 .bubbles img:nth-child(5){
     animation-delay: 3s;
-    width: 100px;
+    width: 60px;
     
 }
 .bubbles img:nth-child(6){
     animation-delay: 6s;
-    width: 90px;
+    width: 70px;
 }
  
